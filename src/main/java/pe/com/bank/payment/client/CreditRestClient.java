@@ -8,7 +8,7 @@ import pe.com.bank.payment.entity.CreditDTO;
 import reactor.core.publisher.Mono;
 
 @Component
-@Slf4j
+
 public class CreditRestClient {
 
     private WebClient webClient;
